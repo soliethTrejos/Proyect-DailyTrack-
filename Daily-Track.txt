@@ -1,0 +1,21 @@
+Daily-Track 
+Funcionales
+Gestión de Eventos: 
+Permitir a los coordinadores de actividades (facultades, clubes y vida estudiantil) crear, editar y eliminar eventos en el calendario.
+Facilitar la actualización de eventos existentes y permitir la notificación a los usuarios sobre cambios importantes.
+Notificaciones: 
+Enviar notificaciones automáticas a los estudiantes sobre la creación de nuevos eventos y recordatorios de eventos próximos, basadas en sus preferencias de participación. 
+Permitir a los usuarios seleccionar la frecuencia y los tipos de eventos para los que desean recibir notificaciones (diaria, semanal, etc).
+Incripción a Eventos: 
+Hablititar a los estudiantes para inscribirse en eventos específicos y recibir confirmaciones de su inscripción. 
+Mostrar una lista de participantes inscritos para fomentar la interacción y la planificación conjunta. 
+Visualización de Eventos: 
+Proporcionar una interfaz de usuario clara y accesible donde los estudiantes puedan visualizar todos los eventos programados.
+Incluir filtros para que los puedan encontrar eventos por tipo, fecha o interés.
+Informe y Métricas:
+Generar informes sobre la asistencia a eventos, la satisfacción de los participantes y estadísticas relevantes para evaluar el éxito de cada evento. 
+Permitir a los administradores exportar informes en formatos comunes (PDF, Excel) para facilitar la presentación de resultados.
+Personalización del Calendario:
+Ofrecer opciones de personalización del calendario para que los estudiantes seleccionen los eventos que desean ver según sus intereses y prioridades.
+Permitir la integración con redes sociales y aplicaciones móviles para facilitar el acceso y la compartición de información.
+
