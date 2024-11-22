@@ -48,7 +48,6 @@ namespace Daily_Track.Forms
 
         private void btnshowpass_Click(object sender, EventArgs e)
         {
-            //Mostrar la contraseña 
 
         }
 
