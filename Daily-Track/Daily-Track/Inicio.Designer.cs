@@ -56,7 +56,7 @@
             this.btnadministration.BackgroundImage = global::Daily_Track.Properties.Resources.admin__1_1;
             this.btnadministration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnadministration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnadministration.Location = new System.Drawing.Point(238, 161);
+            this.btnadministration.Location = new System.Drawing.Point(245, 161);
             this.btnadministration.Name = "btnadministration";
             this.btnadministration.Size = new System.Drawing.Size(160, 198);
             this.btnadministration.TabIndex = 1;
@@ -104,45 +104,45 @@
             // btnHelp
             // 
             this.btnHelp.BackColor = System.Drawing.Color.Transparent;
-            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHelp.BackgroundImage = global::Daily_Track.Properties.Resources.Bottonayuda;
+            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.ForeColor = System.Drawing.Color.Black;
-            this.btnHelp.Location = new System.Drawing.Point(35, 144);
+            this.btnHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
+            this.btnHelp.Location = new System.Drawing.Point(12, 150);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(86, 32);
+            this.btnHelp.Size = new System.Drawing.Size(116, 51);
             this.btnHelp.TabIndex = 5;
-            this.btnHelp.Text = "Ayuda";
             this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click_1);
             // 
             // btnUam
             // 
             this.btnUam.BackColor = System.Drawing.Color.Transparent;
-            this.btnUam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnUam.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUam.BackgroundImage = global::Daily_Track.Properties.Resources.bottonvirtual_;
+            this.btnUam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnUam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUam.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUam.ForeColor = System.Drawing.Color.Black;
-            this.btnUam.Location = new System.Drawing.Point(35, 216);
+            this.btnUam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
+            this.btnUam.Location = new System.Drawing.Point(12, 234);
             this.btnUam.Name = "btnUam";
-            this.btnUam.Size = new System.Drawing.Size(86, 32);
+            this.btnUam.Size = new System.Drawing.Size(116, 51);
             this.btnUam.TabIndex = 6;
-            this.btnUam.Text = "UamClass";
             this.btnUam.UseVisualStyleBackColor = false;
             this.btnUam.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnUamV
             // 
             this.btnUamV.BackColor = System.Drawing.Color.Transparent;
-            this.btnUamV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnUamV.BackgroundImage = global::Daily_Track.Properties.Resources.bottonclass;
+            this.btnUamV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUamV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUamV.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUamV.ForeColor = System.Drawing.Color.Black;
-            this.btnUamV.Location = new System.Drawing.Point(35, 286);
+            this.btnUamV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
+            this.btnUamV.Location = new System.Drawing.Point(12, 317);
             this.btnUamV.Name = "btnUamV";
-            this.btnUamV.Size = new System.Drawing.Size(86, 32);
+            this.btnUamV.Size = new System.Drawing.Size(116, 55);
             this.btnUamV.TabIndex = 7;
-            this.btnUamV.Text = "UamV";
             this.btnUamV.UseVisualStyleBackColor = false;
             this.btnUamV.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -151,7 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(89)))), ((int)(((byte)(98)))));
-            this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosinicio;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnUamV);
             this.Controls.Add(this.btnUam);

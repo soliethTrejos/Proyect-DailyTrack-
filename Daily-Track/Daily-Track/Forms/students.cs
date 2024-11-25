@@ -12,6 +12,8 @@ namespace Daily_Track.Forms
 {
     public partial class students : Form
     {
+        
+
         public students()
         {
             InitializeComponent();
@@ -26,37 +28,43 @@ namespace Daily_Track.Forms
                 tbID.Text = string.Empty;
             }
             // Limitar el campo de texto a un máximo de 5 caracteres
-            if (tbID.Text.Length > 5)
+            if (tbID.Text.Length > 7)
             {
-                MessageBox.Show("El ID no puede tener más de 5 caracteres.");
-                tbID.Text = tbID.Text.Substring(0, 5);
-                tbID.SelectionStart = tbID.Text.Length; // Mover el cursor al final
+                MessageBox.Show("El ID no puede tener más de 7 numeros.");
+                tbID.Text = tbID.Text.Substring(0, 7);
+                tbID.SelectionStart = tbID.Text.Length;
             }
 
         }
 
         private void tbPaas_TextChanged(object sender, EventArgs e)
         {
-            //Maximo de carracteres 
+            // Limitar la contraseña a un máximo de 8 caracteres
             if (tbPaas.Text.Length > 8)
             {
                 MessageBox.Show("La contraseña no puede tener más de 8 caracteres.");
                 tbPaas.Text = tbPaas.Text.Substring(0, 8);
-                tbPaas.SelectionStart = tbPaas.Text.Length; // Mover el cursor al final
+                tbPaas.SelectionStart = tbPaas.Text.Length; 
             }
-            //Minimo de carracteres
-            if (tbPaas.Text.Length < 8)
-            {
-                MessageBox.Show("La contraseña no puede tener menos de 8 caracteres.");
-                tbPaas.Text = tbPaas.Text.Substring(0, 8);
-                tbPaas.SelectionStart = tbPaas.Text.Length; // Mover el cursor al final
-            }
+
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             Inicio inicio = new Inicio();
             inicio.Show();
+            this.Hide();
+        }
+
+        private void PbShowpass_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnInto_Click(object sender, EventArgs e)
+        {
+            PrincipalStusent principalStusent = new PrincipalStusent();
+            principalStusent.Show();
             this.Hide();
         }
     }

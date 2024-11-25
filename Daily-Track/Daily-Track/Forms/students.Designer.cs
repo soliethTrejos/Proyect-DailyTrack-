@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnInto = new System.Windows.Forms.Button();
-            this.btnshowpass = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tbPaas = new System.Windows.Forms.TextBox();
@@ -45,7 +44,6 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.btnInto);
-            this.panel1.Controls.Add(this.btnshowpass);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.tbPaas);
@@ -66,17 +64,7 @@
             this.btnInto.TabIndex = 10;
             this.btnInto.Text = "Ingresar";
             this.btnInto.UseVisualStyleBackColor = false;
-            // 
-            // btnshowpass
-            // 
-            this.btnshowpass.BackColor = System.Drawing.Color.Transparent;
-            this.btnshowpass.BackgroundImage = global::Daily_Track.Properties.Resources.ojo__1_;
-            this.btnshowpass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnshowpass.Location = new System.Drawing.Point(393, 201);
-            this.btnshowpass.Name = "btnshowpass";
-            this.btnshowpass.Size = new System.Drawing.Size(42, 29);
-            this.btnshowpass.TabIndex = 9;
-            this.btnshowpass.UseVisualStyleBackColor = false;
+            this.btnInto.Click += new System.EventHandler(this.btnInto_Click);
             // 
             // label3
             // 
@@ -132,11 +120,13 @@
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Transparent;
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
-            this.btnBack.Location = new System.Drawing.Point(21, 365);
+            this.btnBack.BackgroundImage = global::Daily_Track.Properties.Resources.BOTONSalir;
+            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
+            this.btnBack.Location = new System.Drawing.Point(9, 370);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(73, 31);
+            this.btnBack.Size = new System.Drawing.Size(97, 45);
             this.btnBack.TabIndex = 3;
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -169,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuser___1_;
+            this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label);
@@ -187,7 +177,6 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnInto;
-        private System.Windows.Forms.Button btnshowpass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbPaas;

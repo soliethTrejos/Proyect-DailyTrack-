@@ -27,14 +27,14 @@ namespace Daily_Track.Forms
                 tbID.Text = string.Empty;
             }
             // Limitar el campo de texto a un máximo de 5 caracteres
-            if (tbID.Text.Length > 5)
+            if (tbID.Text.Length > 13)
             {
-                MessageBox.Show("El ID no puede tener más de 5 caracteres.");
-                tbID.Text = tbID.Text.Substring(0, 5);
-                tbID.SelectionStart = tbID.Text.Length; // Mover el cursor al final
+                MessageBox.Show("El ID no puede tener más de 13 caracteres.");
+                tbID.Text = tbID.Text.Substring(0, 13);
+                tbID.SelectionStart = tbID.Text.Length; 
             }
         }
-
+        
         private void tbPaas_TextChanged(object sender, EventArgs e)
         {
             // Limitar la contraseña a un máximo de 8 caracteres
@@ -42,7 +42,7 @@ namespace Daily_Track.Forms
             {
                 MessageBox.Show("La contraseña no puede tener más de 8 caracteres.");
                 tbPaas.Text = tbPaas.Text.Substring(0, 8);
-                tbPaas.SelectionStart = tbPaas.Text.Length; // Mover el cursor al final
+                tbPaas.SelectionStart = tbPaas.Text.Length; 
             }
         }
 
@@ -55,6 +55,13 @@ namespace Daily_Track.Forms
         {
             Inicio inicio = new Inicio();
             inicio.Show();
+            this.Hide();
+        }
+
+        private void btnInto_Click(object sender, EventArgs e)
+        {
+            PrincipalAdmin principalAdmin = new PrincipalAdmin();
+            principalAdmin.Show();
             this.Hide();
         }
     }
