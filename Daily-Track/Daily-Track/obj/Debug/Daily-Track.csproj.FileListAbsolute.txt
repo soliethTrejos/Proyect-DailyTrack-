@@ -54,3 +54,4 @@ C:\Users\HomeLap\Documents\Proyect-DailyTrack-\Daily-Track\Daily-Track\obj\Debug
 C:\Users\HomeLap\Documents\Proyect-DailyTrack-\Daily-Track\Daily-Track\obj\Debug\Daily-Tr.BB7AC98C.Up2Date
 C:\Users\HomeLap\Documents\Proyect-DailyTrack-\Daily-Track\Daily-Track\obj\Debug\Daily-Track.exe
 C:\Users\HomeLap\Documents\Proyect-DailyTrack-\Daily-Track\Daily-Track\obj\Debug\Daily-Track.pdb
+C:\Users\HomeLap\Documents\Proyect-DailyTrack-\Daily-Track\Daily-Track\obj\Debug\Daily_Track.Reports.frmReportParticipation.resources

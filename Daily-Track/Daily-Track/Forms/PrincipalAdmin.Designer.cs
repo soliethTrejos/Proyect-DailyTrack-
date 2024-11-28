@@ -38,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnShow = new System.Windows.Forms.Button();
+            this.btnOpenReport = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // label
@@ -160,12 +161,24 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // btnOpenReport
+            // 
+            this.btnOpenReport.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnOpenReport.Location = new System.Drawing.Point(1, 357);
+            this.btnOpenReport.Name = "btnOpenReport";
+            this.btnOpenReport.Size = new System.Drawing.Size(106, 23);
+            this.btnOpenReport.TabIndex = 30;
+            this.btnOpenReport.Text = "Mostrar Reporte";
+            this.btnOpenReport.UseSelectable = true;
+            this.btnOpenReport.Click += new System.EventHandler(this.btnOpenReport_Click);
+            // 
             // PrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOpenReport);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -197,5 +210,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnShow;
+        private MetroFramework.Controls.MetroButton btnOpenReport;
     }
 }

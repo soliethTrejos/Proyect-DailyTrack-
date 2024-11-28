@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Daily_Track.Reports;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -72,5 +73,13 @@ namespace Daily_Track.Forms
         {
            
         }
+
+        private void btnOpenReport_Click(object sender, EventArgs e)
+        {
+            frmReportParticipation reportForm = new frmReportParticipation();
+
+            reportForm.ShowDialog();
+        }
     }
 }
+ 
