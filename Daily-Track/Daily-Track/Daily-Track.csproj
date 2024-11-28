@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8562F763-7E08-4A96-B880-95A2257ACBFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Daily_Track</RootNamespace>
+    <AssemblyName>Daily-Track</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\File.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Files\File.Designer.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddEventos.Designer.cs">
+      <DependentUpon>AddEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrincipalAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrincipalAdmin.Designer.cs">
+      <DependentUpon>PrincipalAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrincipalStusent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrincipalStusent.Designer.cs">
+      <DependentUpon>PrincipalStusent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\students.Designer.cs">
+      <DependentUpon>students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Clubs.cs" />
+    <Compile Include="Models\Events.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\username.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AddEventos.resx">
+      <DependentUpon>AddEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrincipalAdmin.resx">
+      <DependentUpon>PrincipalAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrincipalStusent.resx">
+      <DependentUpon>PrincipalStusent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\students.resx">
+      <DependentUpon>students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daily-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daily-removebg-preview.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daily-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Referencias\TextFile1.txt" />
+    <None Include="Resources\eventos.png" />
+    <None Include="Resources\avisoeven.png" />
+    <None Include="Resources\editar.png" />
+    <None Include="Resources\addevents.png" />
+    <None Include="Resources\ojoscl.png" />
+    <None Include="Resources\ojo1.png" />
+    <None Include="Resources\ojo %281%291.png" />
+    <None Include="Resources\BOTONSalir.png" />
+    <None Include="Resources\bottonclass.png" />
+    <None Include="Resources\bottonvirtual .png" />
+    <None Include="Resources\Bottonayuda.png" />
+    <None Include="Resources\Fondosuserandadmin .png" />
+    <None Include="Resources\Fondosuser  %281%29.png" />
+    <None Include="Resources\Fondosuser .png" />
+    <None Include="Resources\Fondosinicio.png" />
+    <None Include="Resources\volver.png" />
+    <None Include="Resources\ojo %281%29.png" />
+    <None Include="Resources\ojo.png" />
+    <None Include="Resources\Fondos %281%29.png" />
+    <None Include="Resources\Fondos.png" />
+    <None Include="Resources\dodfon.png" />
+    <None Include="Resources\menos %281%29.png" />
+    <None Include="Resources\Ayuda %282%29.png" />
+    <None Include="Resources\AYUDA %281%29.png" />
+    <None Include="Resources\AYUDA.png" />
+    <None Include="Resources\user-interface %281%29.png" />
+    <None Include="Resources\Fondodeinicio %281%29.png" />
+    <None Include="Resources\Fondodeinicio.png" />
+    <None Include="Resources\Untitled design %281%29.png" />
+    <None Include="Resources\menos1.png" />
+    <None Include="Resources\admin1.png" />
+    <None Include="Resources\admin %281%291.png" />
+    <None Include="Resources\user-interface1.png" />
+    <None Include="Resources\menos.png" />
+    <None Include="Resources\user-interface.png" />
+    <None Include="Resources\admin %281%29.png" />
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
