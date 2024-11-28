@@ -53,8 +53,8 @@ namespace Daily_Track.Forms
             string hora =tbHours.Text;
             string lugar = tbpalce.Text;
             string tipo = tbTipe.Text;
-            string descriocion = tbDescripcion.Text;
-            string eventoCompleto = $"{evento} - {fecha} - {hora} - {lugar} - {tipo} - {descriocion}";
+            string descripcion = tbDescripcion.Text;
+            string eventoCompleto = $"{evento} - {fecha} - {hora} - {lugar} - {tipo} - {descripcion}";
             lbEvents.Items.Add(eventoCompleto);
             MessageBox.Show("Evento agregado correctamente");
 

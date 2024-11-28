@@ -113,9 +113,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
             this.label2.Location = new System.Drawing.Point(139, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 29);
+            this.label2.Size = new System.Drawing.Size(186, 29);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Iniciar secion ";
+            this.label2.Text = "Iniciar sesión ";
             // 
             // btnBack
             // 
