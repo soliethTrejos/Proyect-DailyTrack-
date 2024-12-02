@@ -10,7 +10,7 @@ namespace Daily_Track.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string career { get; set; }
-        public string creditcancelation { get; set; }
+        public string Career { get; set; }
+        public string CreditCancellation{ get; set; }
     }
 }

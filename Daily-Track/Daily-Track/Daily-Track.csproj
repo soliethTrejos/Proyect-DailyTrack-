@@ -120,6 +120,11 @@
       <DependentUpon>ReportParticipation.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\ParticipationReport.cs" />
+    <Compile Include="Service\ClubsService.cs" />
+    <Compile Include="Service\EventsService.cs" />
+    <Compile Include="Service\ParticipationService.cs" />
+    <Compile Include="Service\ReservationService.cs" />
+    <Compile Include="Service\UsernameService.cs" />
     <EmbeddedResource Include="Forms\AddEventos.resx">
       <DependentUpon>AddEventos.cs</DependentUpon>
     </EmbeddedResource>
