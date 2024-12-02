@@ -1,6 +1,6 @@
 ﻿namespace Daily_Track.Forms
 {
-    partial class AddEventos
+    partial class FrmAddEventos
     {
         /// <summary>
         /// Required designer variable.

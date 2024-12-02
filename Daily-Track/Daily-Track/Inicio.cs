@@ -53,7 +53,7 @@ namespace Daily_Track
         private void btnAdmin_Click(object sender, EventArgs e)
         {
             //llama a la ventana de Admin
-            Admin admin = new Admin();
+            FrmAdmin admin = new FrmAdmin();
             admin.Show();
             this.Hide();
         }
@@ -65,7 +65,7 @@ namespace Daily_Track
 
         private void btnStudent_Click(object sender, EventArgs e)
         {
-            students student = new students();
+            FrmStudents student = new FrmStudents();
             student.Show();
             this.Hide();
 

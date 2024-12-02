@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Daily_Track.Forms
 {
-    public partial class Reservation : Form
+    public partial class FrmReservation : Form
     {
-        public Reservation()
+        public FrmReservation()
         {
             InitializeComponent();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            PrincipalStusent principalStusent = new PrincipalStusent();
+            FrmPrincipalStusent principalStusent = new FrmPrincipalStusent();
             principalStusent.Show();
             this.Hide();
         }

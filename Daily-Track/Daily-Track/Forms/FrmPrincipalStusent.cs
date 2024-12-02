@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Daily_Track.Forms
 {
-    public partial class PrincipalStusent : Form
+    public partial class FrmPrincipalStusent : Form
     {
-        public PrincipalStusent()
+        public FrmPrincipalStusent()
         {
             InitializeComponent();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            students students = new students();
+            FrmStudents students = new FrmStudents();
             students.Show();
             this.Hide();
         }
@@ -31,7 +31,7 @@ namespace Daily_Track.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Reservation reservation = new Reservation();
+            FrmReservation reservation = new FrmReservation();
             reservation.Show();
             this.Hide();
         }

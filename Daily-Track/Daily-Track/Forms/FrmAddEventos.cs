@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Daily_Track.Forms
 {
-    public partial class AddEventos : Form
+    public partial class FrmAddEventos : Form
     {
-        public AddEventos()
+        public FrmAddEventos()
         {
             InitializeComponent();
             List<string> eventos = new List<string>();
@@ -20,7 +20,7 @@ namespace Daily_Track.Forms
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            PrincipalAdmin principalAdmin = new PrincipalAdmin();
+            FrmPrincipalAdmin principalAdmin = new FrmPrincipalAdmin();
             principalAdmin.Show();
             this.Hide();
         }

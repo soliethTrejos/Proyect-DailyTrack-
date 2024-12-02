@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Daily_Track.Models
 {
-    internal class Participation
+    public class Participation
     {
         public int StudentId { get; set; }
         public int EventId { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Daily_Track.Models
 {
-    internal class Clubs
+    public class Clubs
     {
         public int Id { get; set; }
         public string Name { get; set; }

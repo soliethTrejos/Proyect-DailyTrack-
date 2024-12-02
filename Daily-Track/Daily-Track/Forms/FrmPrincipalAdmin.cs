@@ -11,23 +11,23 @@ using System.Windows.Forms;
 
 namespace Daily_Track.Forms
 {
-    public partial class PrincipalAdmin : Form
+    public partial class FrmPrincipalAdmin : Form
     {
-        public PrincipalAdmin()
+        public FrmPrincipalAdmin()
         {
             InitializeComponent();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            Admin admin = new Admin();
+            FrmAdmin admin = new FrmAdmin();
             admin.Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddEventos addEventos = new AddEventos();
+            FrmAddEventos addEventos = new FrmAddEventos();
             addEventos.Show();
             this.Hide();
         }

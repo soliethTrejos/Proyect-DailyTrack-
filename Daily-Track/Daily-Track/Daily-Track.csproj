@@ -58,47 +58,41 @@
   <ItemGroup>
     <Compile Include="Dao\EventDao.cs" />
     <Compile Include="Dao\ParticipationDao.cs" />
-    <Compile Include="Files\File.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Files\File.Designer.cs">
-      <DependentUpon>File.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddEventos.cs">
+    <Compile Include="Forms\FrmAddEventos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AddEventos.Designer.cs">
-      <DependentUpon>AddEventos.cs</DependentUpon>
+    <Compile Include="Forms\FrmAddEventos.Designer.cs">
+      <DependentUpon>FrmAddEventos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Admin.cs">
+    <Compile Include="Forms\FrmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <Compile Include="Forms\FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PrincipalAdmin.cs">
+    <Compile Include="Forms\FrmPrincipalAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PrincipalAdmin.Designer.cs">
-      <DependentUpon>PrincipalAdmin.cs</DependentUpon>
+    <Compile Include="Forms\FrmPrincipalAdmin.Designer.cs">
+      <DependentUpon>FrmPrincipalAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PrincipalStusent.cs">
+    <Compile Include="Forms\FrmPrincipalStusent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PrincipalStusent.Designer.cs">
-      <DependentUpon>PrincipalStusent.cs</DependentUpon>
+    <Compile Include="Forms\FrmPrincipalStusent.Designer.cs">
+      <DependentUpon>FrmPrincipalStusent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Reservation.cs">
+    <Compile Include="Forms\FrmReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Reservation.Designer.cs">
-      <DependentUpon>Reservation.cs</DependentUpon>
+    <Compile Include="Forms\FrmReservation.Designer.cs">
+      <DependentUpon>FrmReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\students.cs">
+    <Compile Include="Forms\FrmStudents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\students.Designer.cs">
-      <DependentUpon>students.cs</DependentUpon>
+    <Compile Include="Forms\FrmStudents.Designer.cs">
+      <DependentUpon>FrmStudents.cs</DependentUpon>
     </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -125,23 +119,23 @@
     <Compile Include="Service\ParticipationService.cs" />
     <Compile Include="Service\ReservationService.cs" />
     <Compile Include="Service\UsernameService.cs" />
-    <EmbeddedResource Include="Forms\AddEventos.resx">
-      <DependentUpon>AddEventos.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmAddEventos.resx">
+      <DependentUpon>FrmAddEventos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Admin.resx">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PrincipalAdmin.resx">
-      <DependentUpon>PrincipalAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPrincipalAdmin.resx">
+      <DependentUpon>FrmPrincipalAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PrincipalStusent.resx">
-      <DependentUpon>PrincipalStusent.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPrincipalStusent.resx">
+      <DependentUpon>FrmPrincipalStusent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Reservation.resx">
-      <DependentUpon>Reservation.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReservation.resx">
+      <DependentUpon>FrmReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\students.resx">
-      <DependentUpon>students.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmStudents.resx">
+      <DependentUpon>FrmStudents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -183,7 +177,7 @@
     <None Include="Resources\Daily-removebg-preview %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Referencias\TextFile1.txt" />
+    <Content Include="References\TextFile1.txt" />
     <None Include="Resources\eventos.png" />
     <None Include="Resources\avisoeven.png" />
     <None Include="Resources\editar.png" />

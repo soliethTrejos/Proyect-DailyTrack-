@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\service\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\service\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\service\\participationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\participationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\service\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\service\\clubsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\clubsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|c:\\users\\homelap\\documents\\proyect-dailytrack-\\daily-track\\daily-track\\dao\\participationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\dao\\participationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\service\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\service\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\service\\participationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\participationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\service\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\service\\clubsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\service\\clubsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\models\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\models\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\daily-track\\models\\clubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8562F763-7E08-4A96-B880-95A2257ACBFD}|Daily-Track\\Daily-Track.csproj|solutionrelative:daily-track\\models\\clubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,99 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Reservation.cs",
-              "RelativeToolTip": "Daily-Track\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:02:55.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ParticipationService.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ParticipationService.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Service\\ParticipationService.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ParticipationService.cs",
-              "RelativeToolTip": "Daily-Track\\Service\\ParticipationService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:01:29.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsernameService.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\UsernameService.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Service\\UsernameService.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\UsernameService.cs",
-              "RelativeToolTip": "Daily-Track\\Service\\UsernameService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:59:15.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ReservationService.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Service\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ReservationService.cs",
-              "RelativeToolTip": "Daily-Track\\Service\\ReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:57:16.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventsService.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\EventsService.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Service\\EventsService.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\EventsService.cs",
-              "RelativeToolTip": "Daily-Track\\Service\\EventsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:55:20.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClubsService.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ClubsService.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Service\\ClubsService.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ClubsService.cs",
-              "RelativeToolTip": "Daily-Track\\Service\\ClubsService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:53:19.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ParticipationDao.cs",
-              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Dao\\ParticipationDao.cs",
-              "RelativeDocumentMoniker": "Daily-Track\\Dao\\ParticipationDao.cs",
-              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Dao\\ParticipationDao.cs",
-              "RelativeToolTip": "Daily-Track\\Dao\\ParticipationDao.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:38:49.613Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -150,6 +75,140 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "username.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\username.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Models\\username.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\username.cs",
+              "RelativeToolTip": "Daily-Track\\Models\\username.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T04:12:38.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Participation.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Participation.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Models\\Participation.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Participation.cs",
+              "RelativeToolTip": "Daily-Track\\Models\\Participation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T04:12:23.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Events.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Models\\Events.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Events.cs",
+              "RelativeToolTip": "Daily-Track\\Models\\Events.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T04:12:03.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Clubs.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Clubs.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Models\\Clubs.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Clubs.cs",
+              "RelativeToolTip": "Daily-Track\\Models\\Clubs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T04:11:44.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Models\\Reservation.cs",
+              "RelativeToolTip": "Daily-Track\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T03:02:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParticipationService.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ParticipationService.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Service\\ParticipationService.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ParticipationService.cs",
+              "RelativeToolTip": "Daily-Track\\Service\\ParticipationService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T03:01:29.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsernameService.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\UsernameService.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Service\\UsernameService.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\UsernameService.cs",
+              "RelativeToolTip": "Daily-Track\\Service\\UsernameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:59:15.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Service\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ReservationService.cs",
+              "RelativeToolTip": "Daily-Track\\Service\\ReservationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:57:16.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventsService.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\EventsService.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Service\\EventsService.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\EventsService.cs",
+              "RelativeToolTip": "Daily-Track\\Service\\EventsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:55:20.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClubsService.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ClubsService.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Service\\ClubsService.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Service\\ClubsService.cs",
+              "RelativeToolTip": "Daily-Track\\Service\\ClubsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:53:19.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParticipationDao.cs",
+              "DocumentMoniker": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Dao\\ParticipationDao.cs",
+              "RelativeDocumentMoniker": "Daily-Track\\Dao\\ParticipationDao.cs",
+              "ToolTip": "C:\\Users\\HomeLap\\Documents\\Proyect-DailyTrack-\\Daily-Track\\Daily-Track\\Dao\\ParticipationDao.cs",
+              "RelativeToolTip": "Daily-Track\\Dao\\ParticipationDao.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T00:38:49.613Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿namespace Daily_Track.Forms
 {
-    partial class students
+    partial class FrmAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -49,10 +49,10 @@
             this.panel1.Controls.Add(this.tbPaas);
             this.panel1.Controls.Add(this.tbID);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(238, 88);
+            this.panel1.Location = new System.Drawing.Point(231, 93);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(448, 327);
-            this.panel1.TabIndex = 2;
+            this.panel1.TabIndex = 0;
             // 
             // btnInto
             // 
@@ -103,7 +103,7 @@
             this.tbID.Name = "tbID";
             this.tbID.Size = new System.Drawing.Size(338, 29);
             this.tbID.TabIndex = 5;
-            this.tbID.TextChanged += new System.EventHandler(this.tbID_TextChanged);
+            this.tbID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -113,9 +113,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
             this.label2.Location = new System.Drawing.Point(139, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(186, 29);
+            this.label2.Size = new System.Drawing.Size(187, 29);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Iniciar sesión ";
+            this.label2.Text = "Iniciar secion ";
             // 
             // btnBack
             // 
@@ -124,10 +124,10 @@
             this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
-            this.btnBack.Location = new System.Drawing.Point(9, 370);
+            this.btnBack.Location = new System.Drawing.Point(12, 376);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(97, 45);
-            this.btnBack.TabIndex = 3;
+            this.btnBack.Size = new System.Drawing.Size(88, 44);
+            this.btnBack.TabIndex = 11;
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
@@ -135,13 +135,13 @@
             // 
             this.label.AutoSize = true;
             this.label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(201)))), ((int)(((byte)(214)))));
-            this.label.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
-            this.label.Location = new System.Drawing.Point(7, 203);
+            this.label.Location = new System.Drawing.Point(-3, 204);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(99, 25);
-            this.label.TabIndex = 4;
-            this.label.Text = "Usuario";
+            this.label.Size = new System.Drawing.Size(121, 18);
+            this.label.TabIndex = 12;
+            this.label.Text = "Administrador";
             // 
             // label4
             // 
@@ -149,13 +149,13 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(148, 9);
+            this.label4.Location = new System.Drawing.Point(135, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(619, 31);
-            this.label4.TabIndex = 5;
+            this.label4.TabIndex = 13;
             this.label4.Text = "Daily Track-UAM: Calendario Universitario";
             // 
-            // students
+            // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,8 +165,8 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.panel1);
-            this.Name = "students";
-            this.Text = "students";
+            this.Name = "Admin";
+            this.Text = "Admin";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -175,13 +175,14 @@
         }
 
         #endregion
+
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnInto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbPaas;
         private System.Windows.Forms.TextBox tbID;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnInto;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label4;

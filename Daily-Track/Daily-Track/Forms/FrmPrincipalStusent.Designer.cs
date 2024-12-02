@@ -1,6 +1,6 @@
 ﻿namespace Daily_Track.Forms
 {
-    partial class PrincipalStusent
+    partial class FrmPrincipalStusent
     {
         /// <summary>
         /// Required designer variable.

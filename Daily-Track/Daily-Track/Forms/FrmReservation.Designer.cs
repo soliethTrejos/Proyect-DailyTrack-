@@ -1,6 +1,6 @@
 ﻿namespace Daily_Track.Forms
 {
-    partial class Reservation
+    partial class FrmReservation
     {
         /// <summary>
         /// Required designer variable.
