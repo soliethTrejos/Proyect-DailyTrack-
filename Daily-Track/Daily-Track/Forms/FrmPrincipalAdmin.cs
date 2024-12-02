@@ -54,8 +54,9 @@ namespace Daily_Track.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //manda un mesaje de confirmacion
-            MessageBox.Show("Ya se ha enviado la notificación a los estudiantes.");
+            frmReportParticipation reportForm = new frmReportParticipation();
+
+            reportForm.ShowDialog();
         }
 
         private void lbEvents_SelectedIndexChanged(object sender, EventArgs e)
@@ -75,6 +76,13 @@ namespace Daily_Track.Forms
         }
 
         private void btnOpenReport_Click(object sender, EventArgs e)
+        {
+            frmReportParticipation reportForm = new frmReportParticipation();
+
+            reportForm.ShowDialog();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             frmReportParticipation reportForm = new frmReportParticipation();
 

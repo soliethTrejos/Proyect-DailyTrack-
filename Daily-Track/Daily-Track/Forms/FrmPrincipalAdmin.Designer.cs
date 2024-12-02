@@ -38,7 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnShow = new System.Windows.Forms.Button();
-            this.btnOpenReport = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // label
@@ -72,7 +71,7 @@
             this.btnAddEvent.BackgroundImage = global::Daily_Track.Properties.Resources.eventos;
             this.btnAddEvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAddEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddEvent.Location = new System.Drawing.Point(282, 272);
+            this.btnAddEvent.Location = new System.Drawing.Point(194, 272);
             this.btnAddEvent.Name = "btnAddEvent";
             this.btnAddEvent.Size = new System.Drawing.Size(108, 118);
             this.btnAddEvent.TabIndex = 15;
@@ -97,7 +96,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
             this.label1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(277, 393);
+            this.label1.Location = new System.Drawing.Point(191, 393);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 18);
             this.label1.TabIndex = 18;
@@ -110,11 +109,12 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.richTextBox1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(500, 396);
+            this.richTextBox1.Location = new System.Drawing.Point(518, 386);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(173, 42);
             this.richTextBox1.TabIndex = 20;
-            this.richTextBox1.Text = "Mandar notificacion del Evento";
+            this.richTextBox1.Text = "Mostar reporte ";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // lbshow
             // 
@@ -161,24 +161,12 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // btnOpenReport
-            // 
-            this.btnOpenReport.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnOpenReport.Location = new System.Drawing.Point(1, 357);
-            this.btnOpenReport.Name = "btnOpenReport";
-            this.btnOpenReport.Size = new System.Drawing.Size(106, 23);
-            this.btnOpenReport.TabIndex = 30;
-            this.btnOpenReport.Text = "Mostrar Reporte";
-            this.btnOpenReport.UseSelectable = true;
-            this.btnOpenReport.Click += new System.EventHandler(this.btnOpenReport_Click);
-            // 
-            // PrincipalAdmin
+            // FrmPrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnOpenReport);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -190,7 +178,7 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
-            this.Name = "PrincipalAdmin";
+            this.Name = "FrmPrincipalAdmin";
             this.Text = "PrincipalAdmin";
             this.Load += new System.EventHandler(this.PrincipalAdmin_Load);
             this.ResumeLayout(false);
@@ -210,6 +198,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnShow;
-        private MetroFramework.Controls.MetroButton btnOpenReport;
     }
 }
