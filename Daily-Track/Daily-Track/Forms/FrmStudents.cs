@@ -67,5 +67,10 @@ namespace Daily_Track.Forms
             principalStusent.Show();
             this.Hide();
         }
+
+        private void FrmStudents_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

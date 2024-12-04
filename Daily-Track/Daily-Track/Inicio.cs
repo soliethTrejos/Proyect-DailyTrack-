@@ -70,6 +70,11 @@ namespace Daily_Track
             this.Hide();
 
         }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
        
 }

@@ -1,4 +1,4 @@
-﻿using Daily_Track.Reports;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -54,9 +54,8 @@ namespace Daily_Track.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
 
-            reportForm.ShowDialog();
+
         }
 
         private void lbEvents_SelectedIndexChanged(object sender, EventArgs e)
@@ -77,16 +76,12 @@ namespace Daily_Track.Forms
 
         private void btnOpenReport_Click(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
-
-            reportForm.ShowDialog();
+            
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
-
-            reportForm.ShowDialog();
+            
         }
     }
 }

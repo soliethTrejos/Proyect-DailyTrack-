@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStudents));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnInto = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -155,7 +156,7 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Daily Track-UAM: Calendario Universitario";
             // 
-            // students
+            // FrmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,8 +166,12 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.panel1);
-            this.Name = "students";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmStudents";
             this.Text = "students";
+            this.Load += new System.EventHandler(this.FrmStudents_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

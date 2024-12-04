@@ -51,5 +51,10 @@ namespace Daily_Track.Forms
                 MessageBox.Show("Reservación seleccionada: " + reservacionSeleccionada, "Detalle de Reservación");
             }
         }
+
+        private void FrmReservation_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

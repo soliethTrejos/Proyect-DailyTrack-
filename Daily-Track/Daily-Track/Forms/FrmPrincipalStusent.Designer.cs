@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipalStusent));
             this.label4 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
@@ -133,7 +134,7 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // PrincipalStusent
+            // FrmPrincipalStusent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -143,7 +144,10 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label4);
-            this.Name = "PrincipalStusent";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmPrincipalStusent";
             this.Text = "PrincipalStusent";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
