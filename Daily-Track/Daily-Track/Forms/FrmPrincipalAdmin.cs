@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿using Daily_Track.Models;
+using Daily_Track.Forms;
+>>>>>>> 21dbb2a (Agrego Report)
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +13,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Reporting.WinForms;
+using Daily_Track.DataSet;
 
 namespace Daily_Track.Forms
 {
@@ -74,14 +81,31 @@ namespace Daily_Track.Forms
            
         }
 
-        private void btnOpenReport_Click(object sender, EventArgs e)
+        private void btnReport_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             
+=======
+            ReportDataSource DataSource = new ReportDataSource("DsDatos", participation);
+            
+            FrmReport frmReport = new FrmReport();
+            frmReport.reportViewer1.LocalReport.DataSources.Clear();
+            frmReport.reportViewer1.LocalReport.DataSources.Add(DataSource);
+
+            //Configurar archivo reporte
+            frmReport.reportViewer1.LocalReport.ReportEmbeddedResource = "Participation.Report.RptParticipation.rdlc";
+
+            //Actualizar el reporte
+            frmReport.reportViewer1.RefreshReport();
+
+            //Visualizar el formulario
+            frmReport.ShowDialog();
+>>>>>>> 21dbb2a (Agrego Report)
         }
     }
 }

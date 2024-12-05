@@ -38,6 +38,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnShow = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.btnReport = new System.Windows.Forms.Button();
+>>>>>>> 21dbb2a (Agrego Report)
             this.SuspendLayout();
             // 
             // label
@@ -153,7 +157,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(690, 123);
+            this.btnShow.Location = new System.Drawing.Point(685, 123);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(98, 45);
             this.btnShow.TabIndex = 29;
@@ -161,12 +165,29 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.button1_Click_1);
             // 
+<<<<<<< HEAD
+=======
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(685, 202);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(98, 45);
+            this.btnReport.TabIndex = 30;
+            this.btnReport.Text = "Ver Reporte ";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            // 
+>>>>>>> 21dbb2a (Agrego Report)
             // FrmPrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.btnReport);
+>>>>>>> 21dbb2a (Agrego Report)
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -198,5 +219,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnShow;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnReport;
+>>>>>>> 21dbb2a (Agrego Report)
     }
 }
