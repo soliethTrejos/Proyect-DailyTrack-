@@ -63,7 +63,7 @@ namespace Daily_Track.Forms
 
         private void btnInto_Click(object sender, EventArgs e)
         {
-            FrmPrincipalStusent principalStusent = new FrmPrincipalStusent();
+            FrmPrincipalStudent principalStusent = new FrmPrincipalStudent();
             principalStusent.Show();
             this.Hide();
         }

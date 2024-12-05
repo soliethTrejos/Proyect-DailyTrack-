@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsDatos" targetNamespace="http://tempuri.org/DsDatos.xsd" xmlns:mstns="http://tempuri.org/DsDatos.xsd" xmlns="http://tempuri.org/DsDatos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsDatos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DsDatos" msprop:Generator_DataSetName="DsDatos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ParticipacionDT" msprop:Generator_RowEvHandlerName="ParticipacionDTRowChangeEventHandler" msprop:Generator_RowDeletedName="ParticipacionDTRowDeleted" msprop:Generator_RowDeletingName="ParticipacionDTRowDeleting" msprop:Generator_RowEvArgName="ParticipacionDTRowChangeEvent" msprop:Generator_TablePropName="ParticipacionDT" msprop:Generator_RowChangedName="ParticipacionDTRowChanged" msprop:Generator_RowChangingName="ParticipacionDTRowChanging" msprop:Generator_TableClassName="ParticipacionDTDataTable" msprop:Generator_RowClassName="ParticipacionDTRow" msprop:Generator_TableVarName="tableParticipacionDT" msprop:Generator_UserTableName="ParticipacionDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StudentId" msprop:Generator_ColumnPropNameInRow="StudentId" msprop:Generator_ColumnPropNameInTable="StudentIdColumn" msprop:Generator_ColumnVarNameInTable="columnStudentId" msprop:Generator_UserColumnName="StudentId" type="xs:int" minOccurs="0" />
+              <xs:element name="EventId" msprop:Generator_ColumnPropNameInRow="EventId" msprop:Generator_ColumnPropNameInTable="EventIdColumn" msprop:Generator_ColumnVarNameInTable="columnEventId" msprop:Generator_UserColumnName="EventId" type="xs:string" minOccurs="0" />
+              <xs:element name="ParticipationDate" msprop:Generator_ColumnPropNameInRow="ParticipationDate" msprop:Generator_ColumnPropNameInTable="ParticipationDateColumn" msprop:Generator_ColumnVarNameInTable="columnParticipationDate" msprop:Generator_UserColumnName="ParticipationDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

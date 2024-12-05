@@ -38,7 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnShow = new System.Windows.Forms.Button();
-            this.btnOpenReport = new MetroFramework.Controls.MetroButton();
+            this.btnReport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label
@@ -161,24 +161,23 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // btnOpenReport
+            // btnReport
             // 
-            this.btnOpenReport.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnOpenReport.Location = new System.Drawing.Point(1, 357);
-            this.btnOpenReport.Name = "btnOpenReport";
-            this.btnOpenReport.Size = new System.Drawing.Size(106, 23);
-            this.btnOpenReport.TabIndex = 30;
-            this.btnOpenReport.Text = "Mostrar Reporte";
-            this.btnOpenReport.UseSelectable = true;
-            this.btnOpenReport.Click += new System.EventHandler(this.btnOpenReport_Click);
+            this.btnReport.Location = new System.Drawing.Point(690, 202);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(98, 45);
+            this.btnReport.TabIndex = 31;
+            this.btnReport.Text = "Ver Reporte ";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
-            // PrincipalAdmin
+            // FrmPrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnOpenReport);
+            this.Controls.Add(this.btnReport);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -190,7 +189,7 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
-            this.Name = "PrincipalAdmin";
+            this.Name = "FrmPrincipalAdmin";
             this.Text = "PrincipalAdmin";
             this.Load += new System.EventHandler(this.PrincipalAdmin_Load);
             this.ResumeLayout(false);
@@ -210,6 +209,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnShow;
-        private MetroFramework.Controls.MetroButton btnOpenReport;
+        private System.Windows.Forms.Button btnReport;
     }
 }

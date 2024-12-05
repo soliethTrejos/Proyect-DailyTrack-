@@ -10,6 +10,7 @@ namespace Daily_Track.Models
     {
         public int StudentId { get; set; }
         public int EventId { get; set; }
+        public string   Benefit { get; set; }
         public DateTime ParticipationDate { get; set; }
     }
 }

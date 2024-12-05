@@ -1,4 +1,6 @@
-﻿using Daily_Track.Reports;
+﻿using Daily_Track.Models;
+using Microsoft.Reporting.WinForms;
+using Microsoft.ReportingServices.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -76,9 +78,39 @@ namespace Daily_Track.Forms
 
         private void btnOpenReport_Click(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
 
-            reportForm.ShowDialog();
+        }
+
+        public void btnReport_Click(object sender, EventArgs e)
+        {
+            FrmReport admin = new FrmReport();
+            admin.Show();
+            this.Hide();
+
+        }
+
+        private static void GenerateReport(List<Events> Events)
+        {
+            // Crear la fuente de datos para el reporte
+            ReportDataSource dataSource = new ReportDataSource("DsDatos", Events);
+
+            // Crear una instancia del formulario de reporte
+            FrmReport frmReport = new FrmReport();
+
+            // Limpiar las fuentes de datos existentes
+            frmReport.reportViewer1.LocalReport.DataSources.Clear();
+
+            // Agregar la nueva fuente de datos
+            frmReport.reportViewer1.LocalReport.DataSources.Add(dataSource);
+
+            // Configurar el archivo de reporte
+            frmReport.reportViewer1.LocalReport.ReportEmbeddedResource = "Participation.Report.RptParticipation.rdlc";
+
+            // Actualizar el reporte
+            frmReport.reportViewer1.RefreshReport();
+
+            // Visualizar el formulario
+            frmReport.ShowDialog();
         }
     }
 }
