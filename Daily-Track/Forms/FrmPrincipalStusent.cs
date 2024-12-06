@@ -35,5 +35,16 @@ namespace Daily_Track.Forms
             reservation.Show();
             this.Hide();
         }
+
+        private void lbshow_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Muestra los eventos registrados 
+            if (lbshow.SelectedItem != null)
+            {
+                string eventoSeleccionado = lbshow.SelectedItem.ToString();
+                MessageBox.Show($"Evento seleccionado: {eventoSeleccionado}");
+            }
+
+        }
     }
 }

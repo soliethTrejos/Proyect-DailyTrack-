@@ -43,6 +43,7 @@ namespace Daily_Track.Forms
                 string eventoSeleccionado = lbEvents.SelectedItem.ToString();
                 MessageBox.Show($"Evento seleccionado: {eventoSeleccionado}");
             }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace Daily_Track.Forms
             string eventoCompleto = $"{evento} - {fecha} - {hora} - {lugar} - {tipo} - {descripcion}";
             lbEvents.Items.Add(eventoCompleto);
             MessageBox.Show("Evento agregado correctamente");
+
 
         }
 
@@ -79,6 +81,16 @@ namespace Daily_Track.Forms
                 MessageBox.Show("El ID no puede tener más de 5 numeros.");
                 tbID.Text = tbID.Text.Substring(0, 5);
                 tbID.SelectionStart = tbID.Text.Length;
+            }
+        }
+
+        private void dtpDay_ValueChanged(object sender, EventArgs e)
+        {
+            //No permitir seleccionar una fecha anterior a la actual
+            if (dtpDay.Value < DateTime.Now)
+            {
+                MessageBox.Show("No se puede seleccionar una fecha anterior a la actual.");
+                dtpDay.Value = DateTime.Now;
             }
         }
     }

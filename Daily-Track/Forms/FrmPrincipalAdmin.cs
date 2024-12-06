@@ -1,4 +1,7 @@
-﻿using Daily_Track.Reports;
+﻿using Daily_Track.Dao;
+using Daily_Track.Models;
+using Daily_Track.Reportes;
+using Daily_Track.Reports;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -64,7 +67,7 @@ namespace Daily_Track.Forms
 
         private void lbEvents_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -74,7 +77,7 @@ namespace Daily_Track.Forms
 
         private void btnOpenReport_Click(object sender, EventArgs e)
         {
-
+           
         }
 
      

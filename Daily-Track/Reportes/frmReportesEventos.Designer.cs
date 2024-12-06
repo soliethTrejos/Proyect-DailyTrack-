@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.reportViewer = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 
-            // reportViewer2
+            // reportViewer
             // 
-            this.reportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer2.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer2.Name = "reportViewer2";
-            this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.Size = new System.Drawing.Size(678, 426);
-            this.reportViewer2.TabIndex = 0;
+            this.reportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer.Name = "reportViewer";
+            this.reportViewer.ServerReport.BearerToken = null;
+            this.reportViewer.Size = new System.Drawing.Size(678, 426);
+            this.reportViewer.TabIndex = 0;
+            this.reportViewer.Load += new System.EventHandler(this.reportViewer2_Load);
             // 
             // frmReportesEventos
             // 
             this.ClientSize = new System.Drawing.Size(678, 426);
-            this.Controls.Add(this.reportViewer2);
+            this.Controls.Add(this.reportViewer);
             this.Name = "frmReportesEventos";
             this.Load += new System.EventHandler(this.frmReportesEventos_Load);
             this.ResumeLayout(false);
@@ -57,6 +58,6 @@
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer2;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer;
     }
 }

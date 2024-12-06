@@ -31,7 +31,7 @@
             this.label = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lbReservation = new System.Windows.Forms.ListBox();
             this.btnAddEvent = new System.Windows.Forms.Button();
             this.tbCIF = new System.Windows.Forms.TextBox();
@@ -45,7 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tbID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,17 +98,14 @@
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
-            // label4
+            // comboBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(139, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(619, 31);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Daily Track-UAM: Calendario Universitario";
+            this.comboBox1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(288, 84);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(139, 26);
+            this.comboBox1.TabIndex = 44;
             // 
             // lbReservation
             // 
@@ -186,6 +183,7 @@
             this.dtpDay.Name = "dtpDay";
             this.dtpDay.Size = new System.Drawing.Size(138, 26);
             this.dtpDay.TabIndex = 35;
+            this.dtpDay.ValueChanged += new System.EventHandler(this.dtpDay_ValueChanged);
             // 
             // tbHours
             // 
@@ -233,16 +231,19 @@
             this.label1.TabIndex = 30;
             this.label1.Text = "ID del evento";
             // 
-            // comboBox1
+            // label4
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(288, 84);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 26);
-            this.comboBox1.TabIndex = 44;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(139, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(619, 31);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Daily Track-UAM: Calendario Universitario";
             // 
-            // Reservation
+            // FrmReservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -252,7 +253,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label);
             this.Controls.Add(this.btnBack);
-            this.Name = "Reservation";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmReservation";
             this.Text = "Reservation";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

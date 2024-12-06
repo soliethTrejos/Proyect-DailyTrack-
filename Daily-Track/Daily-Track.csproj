@@ -92,6 +92,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dao\Archivos.cs" />
     <Compile Include="Dao\EventDao.cs" />
     <Compile Include="Dao\ParticipationDao.cs" />
     <Compile Include="Forms\FrmAddEventos.cs">

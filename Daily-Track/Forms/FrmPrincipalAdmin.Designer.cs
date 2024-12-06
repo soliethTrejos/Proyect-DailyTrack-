@@ -34,10 +34,8 @@
             this.btnReporte = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.lbshow = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label
@@ -71,9 +69,9 @@
             this.btnAddEvent.BackgroundImage = global::Daily_Track.Properties.Resources.eventos;
             this.btnAddEvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAddEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddEvent.Location = new System.Drawing.Point(285, 272);
+            this.btnAddEvent.Location = new System.Drawing.Point(234, 165);
             this.btnAddEvent.Name = "btnAddEvent";
-            this.btnAddEvent.Size = new System.Drawing.Size(108, 118);
+            this.btnAddEvent.Size = new System.Drawing.Size(132, 132);
             this.btnAddEvent.TabIndex = 15;
             this.btnAddEvent.UseVisualStyleBackColor = true;
             this.btnAddEvent.Click += new System.EventHandler(this.button1_Click);
@@ -83,9 +81,9 @@
             this.btnReporte.BackgroundImage = global::Daily_Track.Properties.Resources.eventos;
             this.btnReporte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReporte.Location = new System.Drawing.Point(476, 272);
+            this.btnReporte.Location = new System.Drawing.Point(495, 165);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(108, 118);
+            this.btnReporte.Size = new System.Drawing.Size(132, 132);
             this.btnReporte.TabIndex = 17;
             this.btnReporte.UseVisualStyleBackColor = true;
             this.btnReporte.Click += new System.EventHandler(this.button3_Click);
@@ -96,7 +94,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(137)))), ((int)(((byte)(152)))));
             this.label1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(282, 393);
+            this.label1.Location = new System.Drawing.Point(248, 300);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 18);
             this.label1.TabIndex = 18;
@@ -109,23 +107,12 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.richTextBox1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(476, 386);
+            this.richTextBox1.Location = new System.Drawing.Point(504, 300);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(173, 42);
+            this.richTextBox1.Size = new System.Drawing.Size(130, 27);
             this.richTextBox1.TabIndex = 20;
             this.richTextBox1.Text = "Mostar reporte ";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // lbshow
-            // 
-            this.lbshow.BackColor = System.Drawing.Color.White;
-            this.lbshow.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lbshow.FormattingEnabled = true;
-            this.lbshow.Location = new System.Drawing.Point(174, 123);
-            this.lbshow.Name = "lbshow";
-            this.lbshow.Size = new System.Drawing.Size(505, 130);
-            this.lbshow.TabIndex = 21;
-            this.lbshow.SelectedIndexChanged += new System.EventHandler(this.lbEvents_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -151,26 +138,14 @@
             this.label2.TabIndex = 23;
             this.label2.Text = "Eventos Registrados ";
             // 
-            // btnShow
-            // 
-            this.btnShow.Location = new System.Drawing.Point(690, 123);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(98, 45);
-            this.btnShow.TabIndex = 29;
-            this.btnShow.Text = "Mostrar  Evento ";
-            this.btnShow.UseVisualStyleBackColor = true;
-            this.btnShow.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // FrmPrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Daily_Track.Properties.Resources.Fondosuserandadmin_;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.lbshow);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReporte);
@@ -194,9 +169,7 @@
         private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.ListBox lbshow;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnShow;
     }
 }

@@ -19,6 +19,8 @@ namespace Daily_Track.Reportes
         public frmReportesEventos(List<Events> events)
         {
             InitializeComponent();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.Controls.Add(this.reportViewer1);
             LoadReport(events);
         }
 
@@ -31,26 +33,31 @@ namespace Daily_Track.Reportes
             eventTable.Columns.Add("CuposReservados", typeof(int));
             foreach (var dsEventos in events)
             {
-                DataRow row = dsEventos.NewRow();
-                row["ID"] = dsEventos.ID;
+                DataRow row = eventTable.NewRow();
                 row["Name"] = dsEventos.Name;
                 row["Date"] = dsEventos.Date;
-                row["TotalCupos"] = dsEventos.TotalCupos;
-                row["CuposReservados"] = dsEventos.CuposReservados;
+                row["TotalCupos"] = dsEventos.TotalCupos; // Error: Property does not exist
+                row["CuposReservados"] = dsEventos.CuposReservados; // Error: Property does not exist
                 eventTable.Rows.Add(row);
             }
 
             // Configurar el ReportViewer
-            reportViewer1.LocalReport.DataSources.Clear();
+            reportViewer.LocalReport.DataSources.Clear();
             ReportDataSource rds = new ReportDataSource("EventDataSet", eventTable);
-            reportViewer1.LocalReport.DataSources.Add(rds);
-            reportViewer1.RefreshReport();
+            reportViewer.LocalReport.DataSources.Add(rds);
+            reportViewer.RefreshReport();
         }
 
         private void frmReportesEventos_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer2.RefreshReport();
+            this.reportViewer.RefreshReport();
+        }
+
+        private void reportViewer2_Load(object sender, EventArgs e)
+        {
+
         }
     }
+        
 }

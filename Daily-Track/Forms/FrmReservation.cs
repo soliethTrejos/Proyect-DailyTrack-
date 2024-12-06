@@ -51,5 +51,15 @@ namespace Daily_Track.Forms
                 MessageBox.Show("Reservación seleccionada: " + reservacionSeleccionada, "Detalle de Reservación");
             }
         }
+
+        private void dtpDay_ValueChanged(object sender, EventArgs e)
+        {
+            //No permite seleccionar fechas anteriores a la actual
+            if (dtpDay.Value < DateTime.Now)
+            {
+                MessageBox.Show("No se puede seleccionar una fecha anterior a la actual", "Fecha Inválida");
+                dtpDay.Value = DateTime.Now;
+            }
+        }
     }
 }

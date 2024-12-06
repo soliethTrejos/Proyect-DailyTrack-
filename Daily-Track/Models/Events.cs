@@ -17,5 +17,7 @@ namespace Daily_Track.Models
         public DateTime Date { get; set; }
         public string Location { get; set; }
         public string Club { get; set; }
+        public int TotalCupos { get; set; } 
+        public int CuposReservados { get; set; } 
     }
 }
