@@ -54,39 +54,34 @@ namespace Daily_Track.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
+            //muestra los reportes de los eventos
+            List<Events> eventos = new EventDao().GetAllEvents();
+            frmReportesEventos reportesEventos = new frmReportesEventos(eventos);
+            reportesEventos.Show();
+            this.Hide();
 
-            reportForm.ShowDialog();
         }
 
         private void lbEvents_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //mostrar los eventos del listbox de AddEventos
-            if (lbshow.SelectedItem != null)
-            {
-                string eventoSeleccionado = lbshow.SelectedItem.ToString();
-                MessageBox.Show($"Evento seleccionado: {eventoSeleccionado}");
-            }
 
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-           
+            
         }
 
         private void btnOpenReport_Click(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
 
-            reportForm.ShowDialog();
         }
+
+     
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            frmReportParticipation reportForm = new frmReportParticipation();
-
-            reportForm.ShowDialog();
+            ;
         }
     }
 }
